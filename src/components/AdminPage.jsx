@@ -45,7 +45,7 @@ const AdminPage = () => {
         {isLoadingTakers ? (
           <p>Loading...</p>
         ) : (
-          <table className='taker-details'>
+          <table className='taker-detailss'>
             <thead>
               <tr>
                 <th>Number of People</th>
@@ -71,7 +71,7 @@ const AdminPage = () => {
         {isLoadingGivers ? (
           <p>Loading...</p>
         ) : (
-          <table className='taker-details'>
+          <table className='taker-detailss'>
             <thead>
               <tr>
                 <th>ID</th>

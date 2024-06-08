@@ -1,28 +1,28 @@
-.taker-details {
+.taker-detailss {
     margin: 20px 0;
     width: 100%;
   }
   
-  .taker-details table {
+  .taker-detailss table {
     width: 100%;
     border-collapse: collapse;
   }
   
-  .taker-details th, .taker-details td {
+  .taker-detailss th, .taker-detailss td {
     border: 1px solid #ddd;
     padding: 8px;
   }
   
-  .taker-details th {
+  .taker-detailss th {
     background-color: #f2f2f2;
     text-align: left;
   }
   
-  .taker-details tr:nth-child(even) {
+  .taker-detailss tr:nth-child(even) {
     background-color: #f9f9f9;
   }
   
-  .taker-details tr:hover {
+  .taker-detailss tr:hover {
     background-color: #ddd;
   }
   
