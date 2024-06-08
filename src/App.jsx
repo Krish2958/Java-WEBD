@@ -5,7 +5,6 @@ import LoginPage from './components/LoginPage';
 import Dashboard from './components/Dashboard';
 import GiverPage from './components/GiverPage';
 import TakerPage from './components/TakerPage';
-import AdminPage from './components/AdminPage';
 
 
 function App() {

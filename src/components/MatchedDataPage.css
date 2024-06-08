@@ -1,31 +1,38 @@
-/* MatchedDataPage.css */
-
 .matched-data-container {
-    margin: 2px;
-    color: rgb(6, 6, 37);
-  }
-  
-  .matched-data-table {
-    width: 10%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  .matched-data-table th, .matched-data-table td {
-    border: 1px solid #090736;
-    padding: 1px;
-    text-align: left;
-  }
-  
-  .matched-data-table th {
-    background-color: #19dad4;
-  }
-  
-  .matched-data-table tbody tr:nth-child(even) {
-    background-color: #9ae0e9;
-  }
-  
-  .matched-data-table tbody tr:hover {
-    background-color: #88e8f9;
-  }
-  
+  padding: 20px;
+  background-color: #e4e4e4;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.matched-data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.matched-data-table th,
+.matched-data-table td {
+  border: 1px solid #614b4b;
+  padding: 8px;
+}
+
+.matched-data-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.giver-details,
+.taker-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.giver-details p,
+.taker-details p {
+  margin: 0;
+  padding: 2px 0;
+}
+
+strong {
+  color: #333;
+}

@@ -1,0 +1,23 @@
+.grahlaxmi-detail-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grahlaxmi-detail-card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .grahlaxmi-detail-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .grahlaxmi-detail-card strong {
+    color: #000;
+  }
+  
